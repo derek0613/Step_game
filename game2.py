@@ -15,4 +15,4 @@ while True:
     else: 
         low=mid+1
         mid=(low+high)/2
-        attempts+=1
+        attempts+=1 

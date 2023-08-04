@@ -29,7 +29,7 @@ def click(x,y):
     if mark is None or mark == spot or tiles[mark] != tiles[spot]:
         state['mark'] = spot
     else:
-        hide[tiles] = False
+        hide[tiles] = True
         hide[mark] = False
         state['mark'] = None
 def draw():
